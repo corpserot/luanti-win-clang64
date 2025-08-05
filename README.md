@@ -1,15 +1,16 @@
-# ACorp's/Corpserot's MSYS2 Clang64 build for Windows
+# ACorp's MSYS2 Clang64 build for Windows
 This is a bundle of my own build that i use for luanti gaming 🔥🔥🔥. You can
 download it from the releases on the right. I know it's normal for Windows users
 to just download some stranger's executables and pray it works no viruses 100%
 (free robux), but my advice is to actually compile it on your own. At the very
-least, you won't have to trust me :D
+least, you won't have to trust me to not infect your computer with ligma :D
 
 For my future self, the instructions for building this is as follows:
 
-1. Download the source code for the Luanti version you want to use. For example, click the **Source code** (zip or tar.gz) asset in the [github release page for version 5.12.0](https://github.com/luanti-org/luanti/releases/tag/5.12.0). Extract it and navigate to that directory.
+1. Download the source code for the Luanti version you want to use. For example, click the **Source code** (zip or tar.gz) asset in the [github release page for version 5.13.0](https://github.com/luanti-org/luanti/releases/tag/5.13.0). Extract it and navigate to that directory.
 
-   Another approach is to just clone the repository: `git clone 'https://github.com/luanti-org/luanti.git'`
+   - Another approach is to just clone the repository: `git clone 'https://github.com/luanti-org/luanti.git'`
+   - Then, switch to the version to play: `git switch --detach 5.13.0`
 
 2. Follow instructions in the official documentation for engine devs for [compiling Luanti on Windows using MSYS2 + Clang64 environment](https://docs.luanti.org/for-engine-devs/compiling/windows/). Don't use the MSVC + vcpkg one, it's not really well-maintained as other methods.
 
