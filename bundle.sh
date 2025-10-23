@@ -1,4 +1,4 @@
-# sh ..\luanti-win-clang64\bundle.sh
+# sh ../luanti-win-clang64/bundle.sh
 # Run this from luanti\.build directory on MSYS2 Clang64
 
 partialZip="luanti-$(git describe --tags --exact-match)-win64.zip"
