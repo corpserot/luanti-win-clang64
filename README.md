@@ -9,6 +9,7 @@ When updating, you can extract the archive into a folder then copy the following
 - `luanti-old\mods`
 - `luanti-old\textures`
 - `luanti-old\worlds`
+- `luanti-old\minetest.conf`
 
 For my future self, the instructions for building this is as follows:
 
