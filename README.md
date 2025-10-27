@@ -1,17 +1,18 @@
 # ACorp's MSYS2 Clang64 build for Windows
 This is a bundle of my own build that i use for luanti gaming 🔥🔥🔥. You can download it from the releases on the right. I know it's normal for Windows users to just download some stranger's executables and pray it works no viruses 100% (free robux), but my advice is to actually compile it on your own. At the very least, you won't have to trust me to not infect your computer with ligma :D
 
-When updating, you can extract the archive into a folder then copy the following from the previous install:
-- `luanti-old\client`
+When updating, you can (1) rename the old install to `luanti-old` (2) extract the archive into the folder where you probably made a shortcut for i.e. `luanti` (3) copy the following from the previous install to the new one:
+- `luanti-old\client` though, you need to selectively copy over only custom shaders from `client/shaders/` to the new install.
 - `luanti-old\clientmods`
 - `luanti-old\games`
 - `luanti-old\mod_data`
 - `luanti-old\mods`
+- `luanti-old\screenshots`
 - `luanti-old\textures`
 - `luanti-old\worlds`
 - `luanti-old\minetest.conf`
 
-For my future self, the instructions for building this is as follows:
+For my future self, the instructions for building this is as follows. The scripts in this repo covers step 2 and 3.
 
 1. Download the source code for the Luanti version you want to use. For example, click the **Source code** (zip or tar.gz) asset in the [github release page for version 5.14.0](https://github.com/luanti-org/luanti/releases/tag/5.14.0). Extract it and navigate to that directory.
 
